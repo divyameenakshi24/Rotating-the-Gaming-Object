@@ -37,7 +37,26 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 40 * Time.deltaTime);
+    }
+}
 
 ## Output:
+![ar 1](https://user-images.githubusercontent.com/75235402/165584010-3905b00c-b4ec-4ddf-828e-8e8fd02217fb.jpg)
 
 ## Result:
