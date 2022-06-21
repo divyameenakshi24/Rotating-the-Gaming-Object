@@ -1,4 +1,6 @@
-# Rotating-the-Gaming-Object
+### EX NO:01 
+### DATE: 31.03.2022
+# <p align="center"> Rotating the Gaming Object</p>
 
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
@@ -37,6 +39,7 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -55,7 +58,7 @@ public class NewBehaviourScript : MonoBehaviour
         transform.RotateAround(Vector3.right,Vector3.up,40*Time.deltaTime);
     }
 }
-
+```
 ## Output:
 ![ar 1](https://user-images.githubusercontent.com/75235402/165584652-d9283ff4-72dc-4e01-8fb8-9b024d49918f.jpg)
 
