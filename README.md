@@ -1,5 +1,5 @@
 ### EX NO:01 
-### DATE: 31.03.2022
+### DATE: 
 # <p align="center"> Rotating the Gaming Object</p>
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
@@ -17,18 +17,16 @@ Hierarchy -> Effects -> Particle system
 Create a folder in project and name as Materials
 Material folder -> Create -> Material (Name: Cylinder)
 Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Cylinder to the plane and release the mouse
-Create a folder in project and name as Materials
-Material folder -> Create -> Material (Name: Capsule)
-Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Capsule to the plane and release the mouse
 ### Start5:
 Click Hierarchy -> DirectionalLight
 Inspector -> Change the color to white (255,255,255)
+
 ### Start6:
 Create a folder name Coding and create a C# file to add the coding in it.
+
 ### Start7:
 To add our C# Script file to our selected object, click on the C# Script file and drag it to our selected objects in the Hierarchy window nad run the application.
+
 ### Start8:
 Stop
 
@@ -40,18 +38,16 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         transform.RotateAround(Vector3.right,Vector3.up,40*Time.deltaTime);
     }
 }
+
 ```
 ## Output:
 ![ar 1](https://user-images.githubusercontent.com/75235402/165584652-d9283ff4-72dc-4e01-8fb8-9b024d49918f.jpg)
